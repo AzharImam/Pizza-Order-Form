@@ -39,13 +39,13 @@
       } ;
       if($flavor == "Patti - 140") {
         if($topping == "Jelly") {
-            $bill = (100 + 100)  * $quantity ;
+            $bill = (140 + 100)  * $quantity ;
         } 
         elseif($topping == "Chocolate") {
-            $bill = (100 + 200)  * $quantity ;
+            $bill = (140 + 200)  * $quantity ;
         } 
         elseif($topping == "Supari") {
-            $bill = (100 + 60)  * $quantity;
+            $bill = (140 + 60)  * $quantity;
         }
         else {
           $bill = "Error 404";
@@ -53,13 +53,13 @@
       } ;
       if($flavor == "Zahoor Raja - 200") {
         if($topping == "Jelly") {
-            $bill = (100 + 100)  * $quantity ;
+            $bill = (200 + 100)  * $quantity ;
         } 
         elseif($topping == "Chocolate") {
-            $bill = (100 + 200)  * $quantity ;
+            $bill = (200 + 200)  * $quantity ;
         } 
         elseif($topping == "Supari") {
-            $bill = (100 + 60)  * $quantity ;
+            $bill = (200 + 60)  * $quantity ;
         }
         else {
           $bill = "Error 404";
@@ -67,13 +67,13 @@
       } ;
       if($flavor == "Meetha Paan - 220") {
         if($topping == "Jelly") {
-            $bill = (100 + 100)  * $quantity ;
+            $bill = (220 + 100)  * $quantity ;
         } 
         elseif($topping == "Chocolate") {
-            $bill = (100 + 200)  * $quantity ;
+            $bill = (220 + 200)  * $quantity ;
         } 
         elseif($topping == "Supari") {
-            $bill = (100 + 60)  * $quantity ;
+            $bill = (220 + 60)  * $quantity ;
         }
         else {
           $bill = "Error 404";
@@ -81,13 +81,13 @@
       } ;
       if($flavor == "Chocolate - 300") {
         if($topping == "Jelly") {
-            $bill = (100 + 100)  * $quantity ;
+            $bill = (300 + 100)  * $quantity ;
         } 
         elseif($topping == "Chocolate") {
-            $bill = (100 + 200)   * $quantity;
+            $bill = (300 + 200)   * $quantity;
         } 
         elseif($topping == "Supari") {
-            $bill = (100 + 60)  * $quantity ;
+            $bill = (300 + 60)  * $quantity ;
         }
         else {
           $bill = "Error 404";
@@ -95,13 +95,13 @@
       } ;
       if($flavor == "Nuts Paan - 350") {
         if($topping == "Jelly") {
-            $bill = (100 + 100)  * $quantity ;
+            $bill = (350 + 100)  * $quantity ;
         } 
         elseif($topping == "Chocolate") {
-            $bill = (100 + 200)  * $quantity ;
+            $bill = (350 + 200)  * $quantity ;
         } 
         elseif($topping == "Supari") {
-            $bill = (100 + 60)  * $quantity ;
+            $bill = (350 + 60)  * $quantity ;
         }
         else {
           $bill = "Error 404";
@@ -109,13 +109,13 @@
       } ;
       if($flavor == "Fire Paan - 400") {
         if($topping == "Jelly") {
-            $bill = (100 + 100)   * $quantity;
+            $bill = (400 + 100)   * $quantity;
         } 
         elseif($topping == "Chocolate") {
-            $bill = (100 + 200)  * $quantity ;
+            $bill = (400 + 200)  * $quantity ;
         } 
         elseif($topping == "Supari") {
-            $bill = (100 + 60)  * $quantity ;
+            $bill = (400 + 60)  * $quantity ;
         }
         else {
           $bill = "Error 404";
