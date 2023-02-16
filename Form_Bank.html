@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Form_Bank-HTML</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="text-center">Welcome to 2107B1 Bank</h1>
+    <form class="form-control" action="Form_Bank.php" method="post">
+        <div class="form-control">
+            <label>Enter your Pin:</label>
+            <input type="text" name="pin">    
+        </div>
+        <br>
+        <div class="form-control">
+            <p>select options</p>
+            <input type="radio" name="option" value="1">Withdraw Amount
+            <input type="radio" name="option" value="2">deposit Amount
+            <input type="radio" name="option" value="3">Check Balance    
+        </div>
+        <br>
+        <div class="form-control">
+            <p>Enter your amount </p>
+            <input type="text" name="amount">
+    
+        </div>
+        <br>
+        <input type="submit" value="proceed" name="submit">
+    </form>
+    </div>
+
+    
+</body>
+</html>
